@@ -7,3 +7,30 @@
     text-align: end;
     font-size: x-large;
 }
+
+#btn_clr {
+    background-color: red;
+    color: black;
+}
+
+
+/*.col {
+    background-color: chartreuse;
+}
+
+*/
+
+.btn-outline-primary  {
+
+    background-color: chartreuse;
+    color: black;
+
+}
+
+#btn_calc {
+    background-color: rgb(255, 239, 8);
+}
+
+.card-body {
+    background-color: darkslategray;
+}
