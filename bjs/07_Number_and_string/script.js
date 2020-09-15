@@ -67,7 +67,7 @@ document.getElementById('btn_radic').addEventListener('click', function () {
 
 document.getElementById('btn_calc').addEventListener('click', function () {
    if (operation === 'sum') {
-       const result = lastOperand + pparseFloat(inputWindow.value);
+       const result = lastOperand + parseFloat(inputWindow.value);
        operation = null;
        lastOperand = 0;
        inputWindow.value = result;
@@ -93,13 +93,7 @@ document.getElementById('btn_calc').addEventListener('click', function () {
         lastOperand = 0;
         inputWindow.value = result;
     }
-    
-    if (operation === 'radic') {
-        const result = Math.sqrt(parseFloat(inputWindow.value));
-        operation = null;
-        lastOperand = 0;
-        inputWindow.value = result;
-    } 
+  
 })
 
 
